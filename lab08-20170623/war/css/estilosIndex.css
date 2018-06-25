@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Menú */
+header {
+    margin-top:10px;
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+    position: relative;
+}
+
+nav {
+    top:-20px;
+    position: absolute;
+    left:0;
+    right:0;
+    margin:20px auto;
+    max-width:1000px;
+    width:90%;
+}
+
+nav ul {
+    list-style:none;
+}
+
+nav > ul {
+    display:table;
+    width:100%;
+    background:#000;
+    position:relative;
+}
+
+nav > ul li {
+    display:table-cell;
+}
+nav > ul li a {
+    color:#fff;
+    display:block;
+    line-height:20px;
+    padding:20px;
+    position: relative;
+    text-align:center;
+    text-decoration:none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul > li > a span {
+    background:#174459;
+    display:block;
+    height:100%;
+    width:100%;
+    left:0;
+    position:absolute;
+    top:-55px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul > li > a span .icon {
+    display:block;
+    line-height:60px;
+}
+
+nav > ul > li > a:hover > span {
+    top:0;
+}
+
+/*Colores*/
+nav ul li a .primero {
+    background:#0e5061;
+}
+
+nav ul li a .segundo {
+    background:#5da5a2;
+}
+
+nav ul li a .tercero {
+    background:#f25724;
+}
+
+nav ul li a .cuarto {
+    background:#174459;
+}
+
+nav ul li a .quinto {
+    background:#37a4d9;
+}
+
+
+
+
+/* Cuerpo */
+body {
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Roboto;
+}
+.contenedor-form {
+    background: rgba(246, 246, 246, 0.8);
+    max-width: 1250px;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #black;
+    position: relative;
+    padding: 40px;
+}
+.contenedor-form p {
+    margin: 0 0 4px 0;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1;
+    font-weight:bold;
+}
+table {
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+th {
+	padding: 20px;
+}
+td {
+    padding: 20px;
+       color:black;
+}
+thead {
+    background-color: #4979D8;
+    border-bottom: solid 5px #3564C2;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+
+}
+tr:hover td{
+    background-color: #6990DC;
+    color: white;
+}
+.link a {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 20;
+    line-height: 1;
+    font-weight:bold;
+}
+.link img{
+    margin-top: 20px;
+    width: 50px;
+    margin-left: 550px;
+
+}
+.cambiaColor {
+	color: #FF0000; 
+} /* CSS link color (red) */
+.cambiaColor:hover {
+	color: #00FF00; 
+} /* CSS link hover (green) */

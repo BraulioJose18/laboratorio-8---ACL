@@ -1,0 +1,94 @@
+body {
+	background-image: url(fondo.jpg);
+	background-size: 100wn 100wh;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: monospace;
+}
+
+form {
+	width: 520px;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: : 7px;
+}
+
+h2 {
+	color: #fff;
+	margin: 0;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.input, textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: :border-box;
+	font-size: 17px;
+	border: none;
+}
+
+.tabla {
+	border-collapse: collapse;
+	margin: 30px auto;
+	width: 480px;
+}
+
+tr:nth-of-type(odd) {
+	
+}
+
+tr {
+	background: #f7cdea;
+}
+
+th {
+	background: #f399d8;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	padding: 6px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+textarea {
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+footer {
+	position: relative;
+	margin-top: 50px;
+	height: 60px;
+	padding: 5px 0px;
+	clear: both;
+	background: #f2d8ea;
+	text-align: center;
+	color: black;
+}
+
+.boton {
+	background: #31384A;
+	color: #fff;
+	padding: 20px;
+	center;
+}
+
+.boton:hover {
+	cursor: pointer;
+}
+
+@media ( max-width :580px) {
+	form {
+		width: 100%;
+	}
+}
